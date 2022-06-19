@@ -31,7 +31,7 @@
                         <div class="">
                             <h1 class="card-title">To Get Laravel Blog</h1>
                             <p class="card-text text-black-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aut dolorem ducimus esse ex fugit, in libero maiores maxime, minima molestiae natus neque nulla perspiciatis praesentium, quisquam ullam! Accusamus, neque.</p>
-                            <div class="relative flex  justify-center dark:bg-gray-900 sm:items-center sm:pt-0">
+                            <div class="relative flex  justify-center  sm:items-center sm:pt-0">
                                 @if (Route::has('login'))
                                     <div class="hidden  sm:block">
                                         @auth
