@@ -24,7 +24,7 @@ class UpdateBlogRequest extends FormRequest
     public function rules()
     {
         return [
-            'title'=>"required|unique:blogs,title".$this->route('blog')->id."|max:50",
+            'title'=>"required|max:500",
             'description'=>"required|min:10"
         ];
     }
