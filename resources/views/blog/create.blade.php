@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title') Crud Home Page @endsection
+@section('title') Laravel CRUD Create Page @endsection
 @section('content')
     <div class="container">
         <div class="row justify-content-center my-3">
